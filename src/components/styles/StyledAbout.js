@@ -3,10 +3,12 @@ import styled from "styled-components";
 const StyledAbout = styled.div`
 text-align: center;
 
+
 #slogan h2 , #our-team h2{
 color: #00FF00;
 font-weight: bold;
 font-size: 3.5em;
+padding-top: 80px;
 }
 
 .cards{
@@ -19,6 +21,9 @@ font-size: 3.5em;
     height: 200px;
     width: 200px;
     margin-right: 0px;
+}
+.right{
+    padding-top: 80px;
 }
 
 .right h2{

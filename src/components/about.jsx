@@ -48,6 +48,7 @@ function about() {
        </div>
       </div>
 
+
       <div className='right'>
       <h2>PARTNERS</h2>
 
@@ -74,8 +75,6 @@ function about() {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend elementum dui.</p>
           </div>
             </div>
-
-        
        </div>
 
 

@@ -14,7 +14,6 @@ align-items: center;
 
 .right{
     background-color: rgba(21, 95, 6, 0.726); 
-
 }
 
 .cards{
@@ -24,6 +23,7 @@ align-items: center;
 }
 @media only screen and (max-width: 800px){
     flex-direction: column;
+    
 } 
 `
 

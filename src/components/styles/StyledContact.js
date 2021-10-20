@@ -5,8 +5,9 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+padding-top: 80px;
 
- background: url("./commons/images/logo background.png");
+ background: url("../commons/images/logo background.png");
  background-size: 500px 500px;
  background-repeat: no-repeat;
  

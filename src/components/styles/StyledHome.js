@@ -4,6 +4,7 @@ const StyledHome = styled.div`
 
 img{
 width:180%;
+padding-top: 80px
 }
 
 p{

@@ -7,13 +7,14 @@ import {StyledNavbar} from '../styles/StyledNavbar'
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
-hamburger.addEventListener("click", mobileMenu);
-
-
 function mobileMenu() {
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
 }
+
+// hamburger.addEventListener("click", mobileMenu);
+
+
 
 const navLink = document.querySelectorAll(".nav-link");
 
@@ -46,7 +47,7 @@ const Navbar = () => {
                 <NavLink className="nav-link" activeClassName="nav-link-active" to="/contactus">CONTACT US</NavLink>
                 </li>
             </ul>
-            <div className="hamburger">
+            <div class="hamburger">
                 <span className="bar"></span>
                 <span className="bar"></span>
                 <span className="bar"></span>

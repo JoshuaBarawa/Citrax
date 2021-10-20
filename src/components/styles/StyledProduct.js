@@ -2,7 +2,7 @@
 import styled from 'styled-components';
 
 const StyledProduct = styled.div`
-
+padding-top: 80px;
 #p1{
     font-size: 3.9em;
     text-transform: uppercase;

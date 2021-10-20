@@ -3,7 +3,9 @@ import styled from "styled-components";
 
 export const StyledNavbar = styled.nav`
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+position: absolute;
 
+width: 90vw;
 img{
     width:200px;
 }
@@ -40,7 +42,8 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    position: relative;
+    right: 0;
 }
 
 .nav-item {
