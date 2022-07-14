@@ -8,7 +8,6 @@
     position: relative !important;
     min-width: 50%;
     padding: 40px 20px !important;
-   
 }
 
 .product-right {
@@ -62,9 +61,6 @@
     padding-left: 50px;
     color: #008000;
 }
-
-
-
 
 
 @media only screen and (max-width: 840px) {
