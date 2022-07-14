@@ -1,61 +1,66 @@
 .home-page {
     display: flex !important;
-
+    height: 90vh;
 }
 
- .left, .right {
-   position: relative;
-   min-width: 50vw;
+.left,
+.right {
+    position: relative;
+    min-width: 50%;
 }
 
-.right{
-    margin-top: auto !important;
-    margin-bottom: auto;
+.right {
+    background-color: rgb(78, 161, 75);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     text-align: center;
-    padding: 0px 20px;
+    align-items: center;
 }
 
-.home-logo{
-    object-fit: initial;
-    width: 90vw;
-    height: 89vh;
+.home-logo {
+    height: 100%;
+    width: 100%;
+    padding-top: 20px;
 }
 
-.intro{
-    color: rgb(78, 161, 75);
+.intro { box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    color: rgb(255, 255, 255);
     font-size: 50px;
     font-weight: bold;
     text-transform: uppercase;
 }
 
-.btns{
+.btns {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    min-width: 100%;
+    flex-wrap: wrap;
 }
 
-.home-link{
-    background-color: rgb(78, 161, 75);
+.home-link {
+    background-color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 10px 20px;
-    color: #fff;
+    color: rgb(92, 131, 83);
     border-radius: 12px;
     width: 200px;
+    margin-bottom: 10px;
 }
 
-.home-link:hover{
-  color:rgb(78, 161, 75);
-  background-color: transparent;
-  border: 1px solid rgb(78, 161, 75);
+.home-link:hover {
+    background-color:rgb(25, 44, 24) ;
+    border: 1px solid rgb(78, 161, 75);
+    color: #fff;
 }
 
 
-
-
-
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 800px) {
     .home-page {
         flex-wrap: wrap;
         flex-direction: column;
+        height: auto;
+       
     }
 
     .left,
@@ -63,12 +68,16 @@
         width: 100vw;
     }
 
-    #home-logo {
-        object-fit: initial;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+    .right{
+        padding-bottom: 60px;
+    }
 
+    .home-logo {
+        width: 90vw;
+        height: 90vh;
+        display: block;
+        object-fit: 100% 100%;
+        padding: 20px 10px;
     }
 
 }

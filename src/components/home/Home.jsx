@@ -15,7 +15,6 @@ const Home = () => {
 
 
       <div className="right">
-
           <p className="intro">This is a software company and home of innovation</p>
           <div className="btns">
             <Link className="home-link" to="/products">Product & Solutions</Link>
@@ -23,6 +22,7 @@ const Home = () => {
           </div>
 
       </div>
+
 
     </div>
   );

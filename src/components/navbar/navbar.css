@@ -6,6 +6,9 @@
     background-color: rgb(78, 161, 75);
     text-align: center;
     padding: 10px 50px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    z-index: 1;
+    position: relative;
 }
 
 .logo {
