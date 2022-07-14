@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './App.css';
-import {BrowserRouter, Redirect, Switch, Route } from 'react-router-dom';
+import {HashRouter as Router, Redirect, Switch, Route } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
 import Home from './components/home/Home';
 import Products from './components/products/Products';
@@ -13,7 +13,7 @@ import NotFound from './components/commons/notfound';
 function App() {
   return (
 
-<BrowserRouter>
+<Router>
 <Navbar />
     <Switch>
     <Route path='/products' component={Products}/>
@@ -24,7 +24,7 @@ function App() {
     <Redirect to="/not-found" />
     </Switch>
 
-  </BrowserRouter>
+  </Router>
 
   );
 }
