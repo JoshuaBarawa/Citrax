@@ -13,7 +13,6 @@ const contact = () => {
 
   <div className="contact-page">
 
-    <img className=" back-logo" src={logo} alt=""/>
 
   <form className="contact-form">
       <div class="form-group">
