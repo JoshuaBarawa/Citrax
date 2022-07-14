@@ -1,0 +1,81 @@
+
+.contact-page{
+background: url("../commons/images/logo background.png");
+background-size: 500px 500px;
+background-repeat: no-repeat; 
+background-position-x: center; 
+background-position-y: center;
+object-fit: contain;
+}
+
+.back-logo{
+position: relative;
+margin: auto;
+background-color:#32CD32;
+} 
+
+.contact-form{
+width: 600px;
+height: 500px;
+border: 1px #32CD32 solid;
+align-self: center;
+margin: auto;
+padding: 20px;
+}
+
+.form-control{
+border: 1px #32CD32 solid;
+font-size: 14px;
+}
+
+.form-control:focus{
+outline-style: none !important;
+box-shadow: none !important;
+}
+
+.form-group {
+width: 100%;
+margin: 20px auto;    
+}
+
+label{
+font-size: 15px;
+}
+
+label span{
+font-size: 15px;
+opacity: 0.5;
+}
+
+
+#btn{ 
+background-color: #32CD32;
+text-align: left;
+border: 1px #32CD32 solid;
+font-size: 15px;
+color: #fff;
+text-transform: uppercase;
+padding: 5px 10px 5px 10px;
+width: 100%;
+margin-top: 20px;
+}
+
+#social-icons{
+margin:auto !important;
+display: flex;
+flex-wrap: wrap;
+}
+
+.contact-icon img{
+width: 40px;
+}
+
+.contact-icon{
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-align: center;
+margin-right: 20px;
+}
+
+ 
