@@ -4,7 +4,6 @@
     justify-content: space-around;
     min-height: 90vh;
     align-items: center;
-
 }
 
 .back-logo {
@@ -62,7 +61,7 @@ label span {
 #social-icons {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 60px;
+    background-color: aqua;
 }
 
 .contact-icon img {
@@ -101,7 +100,7 @@ label span {
 
     .about-left,
     .about-right {
-        width: 100vw;
+        width: 95w;
     }
 
 }
