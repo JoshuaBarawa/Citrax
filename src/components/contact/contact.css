@@ -18,14 +18,12 @@
     height: 500px;
     border: 1px rgb(78, 161, 75) solid;
     align-self: center;
-
     padding: 20px;
-    z-index: 1;
 }
 
 .form-control {
-    border: 1px rgb(78, 161, 75);
-    font-size: 14px;
+    border: 1px solid rgb(78, 161, 75) !important;
+    font-size: 13px !important;
 }
 
 .form-control:focus {
@@ -52,12 +50,13 @@ label span {
     background-color: rgb(78, 161, 75);
     text-align: left;
     border: 1px solid rgb(78, 161, 75);
-    font-size: 15px;
+    font-size: 14px;
     color: #fff;
     text-transform: uppercase;
     padding: 5px 10px 5px 10px;
     width: 100%;
     margin-top: 20px;
+    border-radius: 4px;
 }
 
 #social-icons {
@@ -67,7 +66,7 @@ label span {
 }
 
 .contact-icon img {
-    width: 40px;
+    width: 30px;
 }
 
 .contact-icon {

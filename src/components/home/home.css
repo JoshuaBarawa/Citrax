@@ -19,12 +19,15 @@
 }
 
 .home-logo {
-    height: 100%;
-    width: 100%;
+    width: 85%;
     padding-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.intro { box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+.intro {
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
     color: rgb(255, 255, 255);
     font-size: 50px;
     font-weight: bold;
@@ -49,7 +52,7 @@
 }
 
 .home-link:hover {
-    background-color:rgb(25, 44, 24) ;
+    background-color: rgb(25, 44, 24);
     border: 1px solid rgb(78, 161, 75);
     color: #fff;
 }
@@ -60,7 +63,7 @@
         flex-wrap: wrap;
         flex-direction: column;
         height: auto;
-       
+
     }
 
     .left,
@@ -68,16 +71,17 @@
         width: 100vw;
     }
 
-    .right{
+    .right {
         padding-bottom: 60px;
     }
 
     .home-logo {
-        width: 100vw;
-        height: 90vh;
+        width: 75vw;
         display: block;
         object-fit: 100% 100%;
         padding: 20px 0px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
