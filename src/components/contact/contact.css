@@ -61,7 +61,6 @@ label span {
 #social-icons {
     display: flex;
     flex-wrap: wrap;
-    background-color: aqua;
 }
 
 .contact-icon img {
