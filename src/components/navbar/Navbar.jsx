@@ -16,7 +16,7 @@ const Navbar = () => {
         document.querySelector(".nav-menu").classList.remove("active-menu");
         console.log(navLink)
     }
-    navLink.forEach(n => n.addEventListener("onclick", closeMenu()));
+    navLink.forEach(n => n.addEventListener("onclick", closeMenu));
 
 
     return (
