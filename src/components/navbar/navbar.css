@@ -3,16 +3,17 @@
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    background-color: rgb(78, 161, 75);
+    background-color: #28c76f;
     text-align: center;
-    padding: 10px 50px;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
     z-index: 1;
     position: relative;
+    border-bottom: 1px solid rgb(247, 247, 247);
+    padding: 10px 8%;
+
 }
 
 .logo {
-    width: 180px;
+    width: 150px;
 }
 
 .nav-menu {
@@ -36,7 +37,7 @@
 
 .nav-link {
     text-decoration: none;
-    font-size: 14px !important;
+    font-size: 12px !important;
     color: #fff !important;
     font-weight: bold;
 }
@@ -58,7 +59,7 @@
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: #ffffff;
-    border-radius:10px ;
+    border-radius: 10px;
 }
 
 
@@ -83,7 +84,7 @@
         z-index: 1;
     }
 
-    .active-menu{
+    .active-menu {
         display: block;
     }
 

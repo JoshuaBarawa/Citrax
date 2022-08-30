@@ -1,24 +1,78 @@
 .contact-page {
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
-    min-height: 90vh;
     align-items: center;
+    background: #dddddd;
+    min-height: 82vh;
+    padding: 5% 10%;
 }
 
-.back-logo {
-    position: relative;
-    margin: auto;
-    background-color: rgb(78, 161, 75);
+.contact-header h3{
+  font-size: 30px;
+  font-weight: bold;
 }
+
+.create-modal-inactive {
+    display: none; 
+    animation: hide-modal .7s ease-in-out;
+}
+
+.create-modal-active {
+    display: block;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
 
 .contact-form {
-    width: 600px;
+    width: 450px;
     height: 500px;
-    border: 1px rgb(78, 161, 75) solid;
+    border-radius: 5px;
     align-self: center;
     padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #fff;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
 }
+
+.contact-page div{
+    width: 50%;
+}
+
+.contact-card{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    background-color: #fff;
+    display: flex;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    width: 100% !important;
+    align-items: center;
+    cursor: pointer;
+}
+
+.contact-card span{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#contact-icon{
+    background-color: rgb(235, 245, 245);
+    border-radius: 100%;
+    padding: 10px;
+    margin-right: 20px;
+    text-align: center !important;
+}
+
 
 .form-control {
     border: 1px solid rgb(78, 161, 75) !important;
@@ -36,43 +90,44 @@
 }
 
 label {
-    font-size: 15px;
+    font-size: 12px;
 }
 
 label span {
-    font-size: 15px;
+    font-size: 12px;
     opacity: 0.5;
 }
 
 
-#btn {
+.form-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit-btn {
     background-color: rgb(78, 161, 75);
-    text-align: left;
-    border: 1px solid rgb(78, 161, 75);
+    text-align: center;
+    border: none;
     font-size: 14px;
     color: #fff;
     text-transform: uppercase;
-    padding: 5px 10px 5px 10px;
-    width: 100%;
+    padding: 5px 10px;
     margin-top: 20px;
     border-radius: 4px;
+    min-width: 150px;
 }
 
-#social-icons {
-    display: flex;
-    flex-wrap: wrap;
-}
 
-.contact-icon img {
-    width: 30px;
-}
-
-.contact-icon {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.exit-btn {
     text-align: center;
-    margin-right: 20px;
+    border: none;
+    font-size: 14px;
+    color: rgb(95, 95, 95);
+    text-transform: uppercase;
+    min-width: 150px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 4px;
 }
 
 

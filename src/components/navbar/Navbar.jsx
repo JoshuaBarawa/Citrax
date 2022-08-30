@@ -6,18 +6,10 @@ import './navbar.css'
 
 const Navbar = () => {
 
-    const navLink = document.querySelectorAll(".nav-link");
-
-    function toggleMenu() {
-        document.querySelector(".nav-menu").classList.toggle("active-menu");
+  
+    const toggleMenu = () => {
+        document.querySelector(".nav-menu").classList.toggle("active-menu");  
     }
-
-    function closeMenu() {
-        document.querySelector(".nav-menu").classList.remove("active-menu");
-        console.log(navLink)
-    }
-    navLink.forEach(n => n.addEventListener("onclick", closeMenu));
-
 
     return (
 
@@ -25,9 +17,7 @@ const Navbar = () => {
             <Link className="navbar-brand" to="/"><img className="logo" src={Group4} alt="asls" /></Link>
 
             <ul className="nav-menu">
-                <li className="nav-item">
-                    <NavLink className="nav-link" exact activeClassName="nav-link-active" to="/" >HOME</NavLink>
-                </li>
+            
                 <li className="nav-item">
                     <NavLink className="nav-link" activeClassName="nav-link-active" to="/products">PRODUCTS</NavLink>
 
@@ -38,6 +28,7 @@ const Navbar = () => {
                 <li className="nav-item">
                     <NavLink className="nav-link" activeClassName="nav-link-active" to="/contactus">CONTACT US</NavLink>
                 </li>
+
             </ul>
 
             <div onClick={toggleMenu} className="hamburger">

@@ -1,54 +1,81 @@
-.home-page {
-    display: flex !important;
-    height: 90vh;
-}
-
-.left,
-.right {
-    position: relative;
-    min-width: 50%;
-}
-
-.right {
-    background-color: rgb(78, 161, 75);
+.hero-page {
+    min-height: 92vh;
+    width: 100vw;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    text-align: center;
     align-items: center;
+    background-color: #28c76f;
+    justify-content: center;
 }
+
+.hero {
+    display: flex !important;
+    justify-content: space-around;
+    width: 70%;
+    margin: auto;
+}
+
+.right {
+    margin: auto;
+    width: 60%;
+    padding-right: 20px;
+}
+
 
 .home-logo {
-    width: 85%;
-    padding-top: 20px;
+    max-width: 500px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto !important;
+    position: relative;
+    top: 15% !important;
 }
+
 
 .intro {
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
     color: rgb(255, 255, 255);
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bold;
-    text-transform: uppercase;
 }
 
-.btns {
-    display: flex;
-    justify-content: space-evenly;
-    min-width: 100%;
-    flex-wrap: wrap;
+.description-p {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
 }
 
-.home-link {
+.get-started-home-button {
     background-color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 10px 20px;
-    color: rgb(92, 131, 83);
-    border-radius: 12px;
-    width: 200px;
+    padding: 12px 80px;
+    color: rgb(73, 73, 73);
+    border-radius: 15px;
     margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.get-started-home-button:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.live-demo-home-button {
+    background-color: transparent;
+    text-decoration: none;
+    padding: 12px 80px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.live-demo-home-button:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(73, 73, 73);
 }
 
 .home-link:hover {
@@ -57,6 +84,135 @@
     color: #fff;
 }
 
+#clients-section {
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    min-height: 250px;
+    align-items: center;
+    padding: 0px 8%;
+    background-color: rgb(243, 241, 241);
+}
+
+.client-logo {
+    width: 120px;
+}
+
+#achievements-hero-section {
+    min-width: 100vw;
+    padding: 6% 8%;
+}
+
+.achievement-description {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.achievement-header {
+    font-size: 30px;
+    font-weight: bold;
+    color: #28c76f;
+}
+
+.achievement-p {
+    padding: 20px 20%;
+    font-size: 16px;
+}
+
+.achievements-section {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    align-items: center;
+    border-top: 3px solid #9ce9bd;
+}
+
+.achievement-item {
+    text-align: center;
+}
+
+.achievement-value {
+    font-size: 25px;
+    font-weight: bold;
+    color:#28c76f;
+}
+
+#why-us-section{
+    min-width: 100vw;
+    padding: 6% 15%;
+    background-color: #9eebc0ea;
+}
+
+.feature-description {
+    align-items: center;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.feature-header {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.feature-p {
+    padding: 20px 20%;
+    font-size: 16px;
+}
+
+.feature-item{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 20px;
+    padding: 4% 5%;
+}
+
+.feature-logo{
+    width: 50%;
+}
+
+.feature-h{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+#testimonials-section{
+    min-width: 100vw;
+    padding: 6% 8%;
+    display: flex;
+}
+
+.testimonial-item{
+    padding: 20px;
+}
+
+.testimonial{
+    font-size: 14px;
+}
+
+.testimonial-item div{
+    display: flex;
+    align-items: center;
+}
+
+.client-image{
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 100% 100%;
+    object-fit: contain;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+.client-details{
+  font-size: 12px;
+}
 
 @media only screen and (max-width: 800px) {
     .home-page {
