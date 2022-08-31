@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './App.css';
-import { HashRouter as Router, Redirect, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/navbar/Navbar';
 import Home from './components/home/Home';
 import Products from './components/products/Products';
@@ -13,18 +13,17 @@ import Footer from './components/footer/Footer';
 function App() {
   return (
 
-    <Router>
+    <BrowserRouter>
       <Navbar />
-      <Switch>
-        <Route path='/products' component={Products} />
-        <Route path='/aboutus' component={About} />
-        <Route path='/contactus' component={Contact} />
-        <Route path='/not-found' component={NotFound} />
-        <Route path='/' exact component={Home} />
-        <Redirect to="/not-found" />
-      </Switch>
+      <Routes>
+        <Route path='/products' exact element={<Products />} />
+        <Route path='/aboutus' exact element={<About />} />
+        <Route path='/contactus' exact element={<Contact />} />
+        <Route path='/not-found' exact element={< NotFound />} />
+        <Route path='/' exact element={<Home />} />
+      </Routes>
       <Footer />
-    </Router>
+    </BrowserRouter>
   );
 }
 

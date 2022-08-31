@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink, Link } from 'react-router-dom';
 import Group4 from './../commons/images/Group 4.png';
 import './navbar.css'
 
@@ -14,12 +13,12 @@ const Navbar = () => {
     return (
 
         <div className="navbar">
-            <Link className="navbar-brand" to="/"><img className="logo" src={Group4} alt="asls" /></Link>
+            <a className="navbar-brand" href="/"><img className="logo" src={Group4} alt="asls" /></a>
 
             <ul className="nav-menu">
-                <NavLink className="nav-link" activeClassName="nav-link-active" to="/products">PRODUCTS</NavLink>
-                <NavLink className="nav-link" activeClassName="nav-link-active" to="/aboutus">ABOUT US</NavLink>
-                <NavLink className="nav-link" activeClassName="nav-link-active" to="/contactus">CONTACT US</NavLink>
+                <a className="nav-link" activeClassName="nav-link-active" href="/products">PRODUCTS</a>
+                <a className="nav-link" activeClassName="nav-link-active" href="/aboutus">ABOUT US</a>
+                <a className="nav-link" activeClassName="nav-link-active" href="/contactus">CONTACT US</a>
             </ul>
 
             <div onClick={toggleMenu} className="hamburger">
