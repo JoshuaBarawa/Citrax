@@ -13,7 +13,7 @@ const Navbar = () => {
     return (
 
         <div className="navbar">
-            <a className="navbar-brand" href="/"><img className="logo" src={Group4} alt="asls" /></a>
+            <a className="navbar-brand" href="#/"><img className="logo" src={Group4} alt="asls" /></a>
 
             <ul className="nav-menu">
                 <a className="nav-link" activeClassName="nav-link-active" href="#/products">PRODUCTS</a>
