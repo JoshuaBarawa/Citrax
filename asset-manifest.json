@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Citrax/static/css/main.cd3b5d5f.chunk.css",
+    "main.js": "/Citrax/static/js/main.83dabb65.chunk.js",
+    "main.js.map": "/Citrax/static/js/main.83dabb65.chunk.js.map",
+    "runtime-main.js": "/Citrax/static/js/runtime-main.15d88f86.js",
+    "runtime-main.js.map": "/Citrax/static/js/runtime-main.15d88f86.js.map",
+    "static/css/2.1cde964d.chunk.css": "/Citrax/static/css/2.1cde964d.chunk.css",
+    "static/js/2.127a413d.chunk.js": "/Citrax/static/js/2.127a413d.chunk.js",
+    "static/js/2.127a413d.chunk.js.map": "/Citrax/static/js/2.127a413d.chunk.js.map",
+    "static/js/3.6e711eb5.chunk.js": "/Citrax/static/js/3.6e711eb5.chunk.js",
+    "static/js/3.6e711eb5.chunk.js.map": "/Citrax/static/js/3.6e711eb5.chunk.js.map",
+    "index.html": "/Citrax/index.html",
+    "static/css/2.1cde964d.chunk.css.map": "/Citrax/static/css/2.1cde964d.chunk.css.map",
+    "static/css/main.cd3b5d5f.chunk.css.map": "/Citrax/static/css/main.cd3b5d5f.chunk.css.map",
+    "static/js/2.127a413d.chunk.js.LICENSE.txt": "/Citrax/static/js/2.127a413d.chunk.js.LICENSE.txt",
+    "static/media/dashboard.bdd30f11.png": "/Citrax/static/media/dashboard.bdd30f11.png",
+    "static/media/font-awesome.min.css": "/Citrax/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/loginv2.da80012f.svg": "/Citrax/static/media/loginv2.da80012f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.15d88f86.js",
+    "static/css/2.1cde964d.chunk.css",
+    "static/js/2.127a413d.chunk.js",
+    "static/css/main.cd3b5d5f.chunk.css",
+    "static/js/main.83dabb65.chunk.js"
+  ]
+}
