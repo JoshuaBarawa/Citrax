@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Citrax/static/css/main.cd3b5d5f.chunk.css",
-    "main.js": "/Citrax/static/js/main.f181dcd8.chunk.js",
-    "main.js.map": "/Citrax/static/js/main.f181dcd8.chunk.js.map",
+    "main.js": "/Citrax/static/js/main.73e2657a.chunk.js",
+    "main.js.map": "/Citrax/static/js/main.73e2657a.chunk.js.map",
     "runtime-main.js": "/Citrax/static/js/runtime-main.15d88f86.js",
     "runtime-main.js.map": "/Citrax/static/js/runtime-main.15d88f86.js.map",
     "static/css/2.1cde964d.chunk.css": "/Citrax/static/css/2.1cde964d.chunk.css",
@@ -23,6 +23,6 @@
     "static/css/2.1cde964d.chunk.css",
     "static/js/2.070dd3fd.chunk.js",
     "static/css/main.cd3b5d5f.chunk.css",
-    "static/js/main.f181dcd8.chunk.js"
+    "static/js/main.73e2657a.chunk.js"
   ]
 }
