@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Citrax/static/css/main.3fcc79e5.chunk.css",
+    "main.css": "/Citrax/static/css/main.fd23d8d2.chunk.css",
     "main.js": "/Citrax/static/js/main.73e2657a.chunk.js",
     "main.js.map": "/Citrax/static/js/main.73e2657a.chunk.js.map",
     "runtime-main.js": "/Citrax/static/js/runtime-main.15d88f86.js",
@@ -12,7 +12,7 @@
     "static/js/3.6e711eb5.chunk.js.map": "/Citrax/static/js/3.6e711eb5.chunk.js.map",
     "index.html": "/Citrax/index.html",
     "static/css/2.1cde964d.chunk.css.map": "/Citrax/static/css/2.1cde964d.chunk.css.map",
-    "static/css/main.3fcc79e5.chunk.css.map": "/Citrax/static/css/main.3fcc79e5.chunk.css.map",
+    "static/css/main.fd23d8d2.chunk.css.map": "/Citrax/static/css/main.fd23d8d2.chunk.css.map",
     "static/js/2.070dd3fd.chunk.js.LICENSE.txt": "/Citrax/static/js/2.070dd3fd.chunk.js.LICENSE.txt",
     "static/media/dashboard.bdd30f11.png": "/Citrax/static/media/dashboard.bdd30f11.png",
     "static/media/font-awesome.min.css": "/Citrax/static/media/fontawesome-webfont.f691f37e.woff",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.15d88f86.js",
     "static/css/2.1cde964d.chunk.css",
     "static/js/2.070dd3fd.chunk.js",
-    "static/css/main.3fcc79e5.chunk.css",
+    "static/css/main.fd23d8d2.chunk.css",
     "static/js/main.73e2657a.chunk.js"
   ]
 }
