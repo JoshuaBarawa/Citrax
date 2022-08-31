@@ -5,6 +5,7 @@
     align-items: center;
     background-color: #28c76f;
     justify-content: center;
+    border-top: 1px solid rgb(247, 247, 247);
 }
 
 .hero {
