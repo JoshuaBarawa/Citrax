@@ -234,27 +234,29 @@
 
     .hero {
         flex-direction: column;
-        padding: 30px 2%;
+        padding: 30px 0%;
         width: 100vw;
     }
 
     .right {
         width: 90vw;
+        padding: 0px;
     }
 
+    
     .home-logo {
         display: none;
     }
 
 
     #clients-section {
-        padding: 0px 30px;  
+        padding: 0px 20px;  
     }
 
 
     #achievements-hero-section {
         min-width: 100vw;
-        padding: 6% 30px;
+        padding: 6% 10px;
     }
 
     .achievement-p {
@@ -262,7 +264,7 @@
     }
 
     #why-us-section {
-        padding: 6% 30px;
+        padding: 6% 10px;
     }
 
     .feature-item{
@@ -271,7 +273,7 @@
     }
 
     #testimonials-section {
-        padding: 6% 30px;
+        padding: 6% 10px;
     }
 
 
