@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 import Navbar from './components/navbar/Navbar';
 import Home from './components/home/Home';
 import Products from './components/products/Products';
@@ -13,7 +13,7 @@ import Footer from './components/footer/Footer';
 function App() {
   return (
 
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route path='/products' exact element={<Products />} />
@@ -23,7 +23,7 @@ function App() {
         <Route path='/' exact element={<Home />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

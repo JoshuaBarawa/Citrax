@@ -18,7 +18,7 @@ const Home = () => {
             <p className="description-p">A powerful, flexible and User friendly sales and distribution system.
               Its also an all-in-one solution for your business.</p>
             <div className="home-btns">
-              <a className="get-started-home-button" href="/products">GET STARTED </a>
+              <a className="get-started-home-button" href="#/">GET STARTED </a>
               <a className="live-demo-home-button" href="http://137.184.236.37:4111/dashboard" target="_blank" rel="noreferrer">LIVE DEMO</a>
             </div>
           </div>

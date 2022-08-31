@@ -16,9 +16,9 @@ const Navbar = () => {
             <a className="navbar-brand" href="/"><img className="logo" src={Group4} alt="asls" /></a>
 
             <ul className="nav-menu">
-                <a className="nav-link" activeClassName="nav-link-active" href="/products">PRODUCTS</a>
-                <a className="nav-link" activeClassName="nav-link-active" href="/aboutus">ABOUT US</a>
-                <a className="nav-link" activeClassName="nav-link-active" href="/contactus">CONTACT US</a>
+                <a className="nav-link" activeClassName="nav-link-active" href="#/products">PRODUCTS</a>
+                <a className="nav-link" activeClassName="nav-link-active" href="#/aboutus">ABOUT US</a>
+                <a className="nav-link" activeClassName="nav-link-active" href="#/contactus">CONTACT US</a>
             </ul>
 
             <div onClick={toggleMenu} className="hamburger">
