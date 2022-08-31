@@ -139,7 +139,6 @@ label span {
     .contact-page {
         padding: 5% 30px;
         flex-direction: column;
-        background-color: aqua;
     }
 
     .contact-page div{
