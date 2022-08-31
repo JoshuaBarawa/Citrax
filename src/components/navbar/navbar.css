@@ -37,7 +37,7 @@
 }
 
 .nav-link:hover {
-   border-bottom: 2px solid #f1f1f1;
+    border-bottom: 2px solid #f1f1f1;
 }
 
 
@@ -61,19 +61,26 @@
 @media only screen and (max-width: 990px) {
 
     .navbar {
-        padding: 10px 10px;
+        padding: 20px 10px;
         width: 100% !important;
+    }
+
+    .nav-link {
+        padding: 10px 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: left;
+        position: relative;
+        left: -5% !important;
     }
 
     .nav-menu {
         position: fixed;
         left: 0%;
-        top: 4rem;
+        top: 14%;
         flex-direction: column;
-        background-color: rgb(83, 160, 80);
+        background-color: #28c76f;
         width: 100%;
-        text-align: left;
-        transition: 0.3s;
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
         display: none;
         z-index: 1;
@@ -83,18 +90,10 @@
         display: block;
     }
 
-    .nav-menu.active {
-        left: 0;
-    }
-
-    .nav-item {
-        margin: 2.5rem 0;
-    }
 
     .hamburger {
         display: block;
         cursor: pointer;
-        
     }
 
     .hamburger.active .bar:nth-child(2) {
@@ -110,8 +109,4 @@
     }
 
 
-}
-
-.nav-link-active {
-    color: #00FF00;
 }
