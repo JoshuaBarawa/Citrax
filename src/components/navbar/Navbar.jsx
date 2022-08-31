@@ -6,9 +6,9 @@ import './navbar.css'
 
 const Navbar = () => {
 
-  
+
     const toggleMenu = () => {
-        document.querySelector(".nav-menu").classList.toggle("active-menu");  
+        document.querySelector(".nav-menu").classList.toggle("active-menu");
     }
 
     return (
@@ -17,21 +17,13 @@ const Navbar = () => {
             <Link className="navbar-brand" to="/"><img className="logo" src={Group4} alt="asls" /></Link>
 
             <ul className="nav-menu">
-            
-                <li className="nav-item">
-                    <NavLink className="nav-link" activeClassName="nav-link-active" to="/products">PRODUCTS</NavLink>
-
-                </li>
-                <li className="nav-item">
-                    <NavLink className="nav-link" activeClassName="nav-link-active" to="/aboutus">ABOUT US</NavLink>
-                </li>
-                <li className="nav-item">
-                    <NavLink className="nav-link" activeClassName="nav-link-active" to="/contactus">CONTACT US</NavLink>
-                </li>
-
+                <NavLink className="nav-link" activeClassName="nav-link-active" to="/products">PRODUCTS</NavLink>
+                <NavLink className="nav-link" activeClassName="nav-link-active" to="/aboutus">ABOUT US</NavLink>
+                <NavLink className="nav-link" activeClassName="nav-link-active" to="/contactus">CONTACT US</NavLink>
             </ul>
 
             <div onClick={toggleMenu} className="hamburger">
+                <span className="bar"></span>
                 <span className="bar"></span>
                 <span className="bar"></span>
                 <span className="bar"></span>

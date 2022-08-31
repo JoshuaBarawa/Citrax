@@ -1,8 +1,9 @@
 .contact-page {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     align-items: center;
-    background: #dddddd;
+    background-color: #f7f7f7;
     min-height: 82vh;
     padding: 5% 10%;
 }
@@ -33,7 +34,7 @@
 
 .contact-form {
     width: 450px;
-    height: 500px;
+    height: auto;
     border-radius: 5px;
     align-self: center;
     padding: 20px;
@@ -114,7 +115,8 @@ label span {
     padding: 5px 10px;
     margin-top: 20px;
     border-radius: 4px;
-    min-width: 150px;
+    min-width: 50%;
+    margin-right: 10px;
 }
 
 
@@ -124,37 +126,35 @@ label span {
     font-size: 14px;
     color: rgb(95, 95, 95);
     text-transform: uppercase;
-    min-width: 150px;
+    min-width: 50%;
     margin-top: 20px;
-    margin-left: 20px;
     border-radius: 4px;
+    padding: 5px 10px;
 }
 
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 770px) {
 
     .contact-page {
-        flex-wrap: wrap;
+        padding: 5% 30px;
         flex-direction: column;
-        min-height: 100vh !important;
-        padding: 20px 10px;
-        justify-content: space-around;
+        background-color: aqua;
+    }
+
+    .contact-page div{
+        width: 100%;
     }
 
     .contact-form {
-        width: 90vw;
+        width: 95vw;
         margin-top: 30px;
     }
 
-    #social-icons {
-        margin-top: 40px;
-        padding-left: 10px;
+    .form-btns {
+        flex-direction: column;
     }
 
-    .about-left,
-    .about-right {
-        width: 95w;
-    }
+
 
 }

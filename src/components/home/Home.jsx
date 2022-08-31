@@ -14,12 +14,13 @@ const Home = () => {
 
         <div className="hero">
           <div className="right">
-            <p className="intro">SCMS - Supply Chain Management System </p>
-            <p className="description-p">SCMS - Supply Chain Management System is a powerful,
-              flexible and User friendly sales and distribution application. Its also
-              an all-in-one solution for your business.</p>
-            <a className="get-started-home-button" href="/products">GET STARTED </a>
-            <a className="live-demo-home-button" href="http://137.184.236.37:4111/dashboard" target="_blank" rel="noreferrer">LIVE DEMO</a>
+            <p className="intro">The Operating System for your Supply Chain Business </p>
+            <p className="description-p">A powerful, flexible and User friendly sales and distribution system.
+              Its also an all-in-one solution for your business.</p>
+            <div className="home-btns">
+              <a className="get-started-home-button" href="/products">GET STARTED </a>
+              <a className="live-demo-home-button" href="http://137.184.236.37:4111/dashboard" target="_blank" rel="noreferrer">LIVE DEMO</a>
+            </div>
           </div>
           <img className="home-logo" src={dashboard} alt='' />
 
