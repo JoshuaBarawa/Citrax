@@ -16,7 +16,7 @@ const Home = () => {
           <div className="right">
             <p className="intro">The Operating System for your Supply Chain Business </p>
             <p className="description-p">A powerful, flexible and User friendly sales and distribution system.
-              Its also an all-in-one solution for your business.</p>
+              Its an all-in-one solution for your business.</p>
             <div className="home-btns">
               <a className="get-started-home-button" href="#/">GET STARTED </a>
               <a className="live-demo-home-button" href="http://137.184.236.37:4111/dashboard" target="_blank" rel="noreferrer">LIVE DEMO</a>
@@ -118,8 +118,8 @@ const Home = () => {
             services such as airtime, electricity tokens and bill payments."</p>
           <div>
             <img className="client-image" src={Group4} alt='' />
-            <p className="client-details">Nelson Mwangala<br />
-              Chief Executive Officer, Citrax limited Kenya</p>
+            <p className="client-details">Joshua Barawa<br />
+              Chief Executive Officer, Citrax Ltd Kenya</p>
           </div>
         </div>
 
@@ -130,8 +130,8 @@ const Home = () => {
             services such as airtime, electricity tokens and bill payments."</p>
           <div>
             <img className="client-image" src={Group4} alt='' />
-            <p className="client-details">Edward Sanga<br />
-              Chief Technology Officer, Citrax limited Kenya</p>
+            <p className="client-details">Joshua Barawa<br />
+              Chief Technology Officer, Citrax Ltd Kenya</p>
           </div>
         </div>
 
@@ -141,8 +141,8 @@ const Home = () => {
             services such as airtime, electricity tokens and bill payments."</p>
           <div>
             <img className="client-image" src={Group4} alt='' />
-            <p className="client-details">Joshua Mwamlanda<br />
-              Senior Manager, Citrax limited Kenya</p>
+            <p className="client-details">Joshua Barawa<br />
+              Senior Manager, Citrax Ltd Kenya</p>
           </div>
         </div>
 
